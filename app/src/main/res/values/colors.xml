@@ -1,74 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--<color name="colorPrimary">#008577</color>-->
-    <!--<color name="colorPrimaryDark">#00574B</color>-->
-    <!--<color name="colorAccent">#D81B60</color>-->
-    <!--apples-->
-    <color name="colorPrimary">#A7BA00</color>
-    <color name="colorPrimaryDark">#A7BA00</color>
-    <color name="colorAccent">#A7BA00</color>
-
-    <!--grey-->
-    <color name="colorPrimaryDarkBlack">#554E55</color>
-    <color name="colorPrimaryBlack">#554E55</color>
-    <color name="colorAccentBlack">#554E55</color>
-
-    <!--pinkjoe-->
-    <color name="colorPrimaryDarkPink">#E01EB0</color>
-    <color name="colorPrimaryPink">#E01EB0</color>
-    <color name="colorAccentPink">#E01EB0</color>
-
-    <!--starsky-->
-    <color name="colorPrimaryDarkBlue">#1A2F72</color>
-    <color name="colorPrimaryBlue">#1A2F72</color>
-    <color name="colorAccentBlue">#1A2F72</color>
-
-    <color name="background">#f7f7f7</color>
-    <color name="transparent">#00000000</color>
-    <color name="white">#ffffff</color>
-    <color name="black">#000000</color>
-    <color name="text_black3">#333333</color>
-    <color name="text_black6">#666666</color>
-    <color name="text_black9">#999999</color>
-    <color name="text_red">#FF5050</color>
-
-    <color name="red">#ff0000</color>
-
-    <color name="green">#008000</color> <!-- 绿色 -->
-    <color name="darkgreen">#006400</color> <!-- 暗绿色 -->
-
-    <!--aboutActivity字体颜色-->
-    <color name="material_grey_100">#fff5f5f5</color>
-    <color name="material_grey_300">#ffe0e0e0</color>
-    <color name="material_grey_50">#fffafafa</color>
-    <color name="material_grey_600">#ff757575</color>
-    <color name="material_grey_800">#ff424242</color>
-    <color name="material_grey_850">#ff303030</color>
-    <color name="material_grey_900">#ff212121</color>
-
-    <color name="colorDivide">#F9F9F9</color>
-    <color name="colorTabSelect">#FFE0AA</color>
-    <color name="colorMainDateBg">#F7F7F7</color>
-    <color name="colorControlNormal">#CCCCCC</color>
-    <!--页面默认背景色-->
-    <color name="colorBackground">#F9F9F9</color>
-    <!--文字颜色-->
-    <color name="textWhite">#FFFFFF</color>
-    <color name="textBlack">#333333</color>
-    <color name="textBrown">#6A4A57</color>
-    <color name="textPink">#FE88A8</color>
-    <color name="textMaple">#977F8A</color>
-    <color name="textLightBlue">#96D6EF</color>
-    <color name="textRed">#ED5543</color>
-    <color name="textGrayish">#999999</color>
-    <color name="textGray">#666666</color>
-
-    <color name="gray">#999999</color>
-    <color name="grayish">#EFEFEF</color>
-
-    <!--tab layout 文字颜色-->
-    <color name="tabNormalTextColor">#8CFFFFFF</color>
-    <color name="tabSelectedTextColor">#FFFFFF</color>
-    <color name="tabIndicatorColor">#FFFFFF</color>
-
+    <color name="colorPrimary">#C100967F</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#027377</color>
+    <color name="colorButton">#4CAF50</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#086A74</color>
+    <color name="lightblue">#B5009688</color>
+    <color name="red">#A534EB</color>
+    <color name="green">#27B079</color>
 </resources>

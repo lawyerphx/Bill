@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Black"
+    android:background="@mipmap/timg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/Widget.AppCompat.ActionBar.TabBar"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="总收入"
+            android:textColor="@color/green"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/totalincome"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="12sp"
+            android:text="0.00"
+            android:textColor="@color/green"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="总支出"
+            android:textSize="20dp"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/totalexpend"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="12sp"
+            android:text="0.00"
+            android:textColor="@color/red"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="总计图表"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/refreshLayout_charge2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </lecho.lib.hellocharts.view.ColumnChartView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+
+</LinearLayout>
